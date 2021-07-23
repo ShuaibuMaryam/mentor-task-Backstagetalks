@@ -58,3 +58,28 @@ body{
 .issue-image > img{
     width: 100%;
 }
+
+
+
+.mobile-footer{
+    text-align: center;
+    padding: .5rem;
+    padding-bottom: 2.5rem;
+}
+.mobile-footer p{
+    margin-top: 1.5rem;
+}
+.mobile-footer p > a{
+   font-weight: bold;
+   color: black;
+}
+.mobile-footer span{
+    font-size: .8rem;
+}
+.mobile-footer span > a{
+    text-decoration: underline;
+}
+.mobile-footer p > span{
+    font-weight: bold;
+    font-size: 1rem
+}
