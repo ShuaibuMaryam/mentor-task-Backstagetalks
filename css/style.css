@@ -43,3 +43,11 @@ body{
     color: white;
 }
 
+/*-----second section-----*/
+.second-section{
+    background-color: #ff651a;
+    padding-bottom: 3rem;
+}
+.issue4-image-container{
+    padding-top: 4.5rem;
+}
