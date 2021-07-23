@@ -7,9 +7,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.first-section-container{
+    display: none;
+}
 .first-section{
     background-color: #00c1b5;
-    height: 100vh;
+    padding-bottom: 3rem;
 }
 .logo{
     padding: 1.5rem 1rem;
