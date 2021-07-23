@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.first-section{
+    background-color: #00c1b5;
+    height: 100vh;
+}
+.logo{
+    padding: 1.5rem 1rem;
+}
+.logo img{
+    width: 200px;
+    height: auto;
+}
+.issue5-image-container{
+   margin-top: 3rem; 
+}
+.issue5-image{
+    width: 80%;
+    margin: 0 auto;
+}
+.issue5-image > img{
+    width: 100%;
+}
+.section-text{
+    text-align: center;
+}
+.section-text p > a{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+.section-text p{
+    margin-bottom: 1rem;
+}
+.section-text p > span{
+    color: white;
+}
+
