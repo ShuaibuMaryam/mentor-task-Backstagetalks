@@ -48,6 +48,13 @@ body{
     background-color: #ff651a;
     padding-bottom: 3rem;
 }
-.issue4-image-container{
+.issue-image-container{
     padding-top: 4.5rem;
+}
+.issue-image{
+    width: 80%;
+    margin: 0 auto;
+}
+.issue-image > img{
+    width: 100%;
 }
