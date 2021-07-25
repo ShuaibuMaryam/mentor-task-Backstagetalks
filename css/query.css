@@ -1,5 +1,83 @@
 @media(min-width: 425px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* gap: 1.8rem; */
+    }
+    #mobile-logo{
+        display: none;
+    }
+
+    .logo{
+        padding: 0;
+    }
+    .logo img{
+        width: 260px;
+        height: auto;
+    }
     .first-section-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        padding: 1.5rem .9rem;
+    }
+    #left-footer{
+        text-align: left;
+    }
+    #left-footer p{
+        font-weight: bold;
+        width: 75%;
+        line-height: 25px;
+    }
+
+    .first-section, .second-section, .third-section, .fourth-section, .fifth-section{
+        height: 100vh;
+        /* padding-bottom: 3rem; */
+    }
+
+    .issue5-image{
+        width: 100%;
+    }
+    .issue-image{
+        width: 100%;
+    }
+
+
+
+
+    .right-section-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        text-align: right;
+        padding: 1.5rem .9rem;
+    }
+    .right-section-container .right-contact > p > span{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .right-section-container .right-links ul{
+        list-style: none;
+    }
+    .right-section-container .right-links ul li a{
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 28.8px;
+        color: #251D20;
+    }
+    .right-section-container .right-links ul li a:hover{
+        text-decoration: underline;
+    }
+    .right-section-container .right-links ul li a:focus{
+        font-weight: bold;
+    }
+
+    .mobile-footer{
+        display: none;
+    }
+    #left-footer{
         display: block;
     }
 }
