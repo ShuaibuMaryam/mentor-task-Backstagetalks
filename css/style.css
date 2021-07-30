@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
 *{
     margin: 0;
     padding: 0;
@@ -13,16 +17,14 @@ body{
 .right-section-container{
     display: none;
 }
-.first-section, .second-section, .third-section, .fourth-section, .fifth-section{
+.middle-child{
     padding-bottom: 4rem;
+    /* background-color: blac */
 }
 .logo img{
     width: 200px;
     height: auto;
     padding: 1.5rem 1rem;
-}
-.issue5-image-container{
-   margin-top: 2rem;
 }
 .issue5-image{
     width: 80%;
@@ -54,7 +56,7 @@ body{
     padding-bottom: 3rem;
 } */
 .issue-image-container{
-    margin-top: 2rem;
+    padding-top: 1.5rem;
 }
 .issue-image{
     width: 80%;
