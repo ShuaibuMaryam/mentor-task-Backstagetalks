@@ -7,27 +7,20 @@ let first = document.getElementById("middle-first"),
     fourth = document.getElementById("middle-fourth"),
     fifth = document.getElementById("middle-fifth");
 
-function changeBackground(color){
-    document.body.style.background = color;
-}
-window.addEventListener('load', function(){
-    changeBackground('#00c1b5');
-});
-
 window.addEventListener('scroll', ()=> {
-    if(first.getBoundingClientRect().top <= (window.innerHeight || document.documentElement.clientHeight)){
+    if(first.getBoundingClientRect().top <= (window.innerHeight / 2)){
         body.style.backgroundColor = "#00c1b5";
     }
-    if(second.getBoundingClientRect().top < (window.innerHeight || document.documentElement.clientHeight)){
+    if(second.getBoundingClientRect().top < (window.innerHeight / 2)){
         body.style.backgroundColor = "#ff651a";
     }
-    if(third.getBoundingClientRect().top < (window.innerHeight || document.documentElement.clientHeight)){
+    if(third.getBoundingClientRect().top < (window.innerHeight / 2)){
         body.style.backgroundColor = "#ffbe00";
     }
-    if(fourth.getBoundingClientRect().top < (window.innerHeight || document.documentElement.clientHeight)){
+    if(fourth.getBoundingClientRect().top < (window.innerHeight / 2)){
         body.style.backgroundColor = "#1d3fbb";
     }
-    if(fifth.getBoundingClientRect().top < (window.innerHeight || document.documentElement.clientHeight)){
+    if(fifth.getBoundingClientRect().top < (window.innerHeight / 2)){
         body.style.backgroundColor = "#e30512";
     }
 })

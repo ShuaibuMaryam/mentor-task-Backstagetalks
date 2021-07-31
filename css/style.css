@@ -19,7 +19,7 @@ body{
 }
 .middle-child{
     padding-bottom: 4rem;
-    /* background-color: blac */
+    height: 100vh;
 }
 .logo img{
     width: 200px;
