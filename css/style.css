@@ -15,17 +15,35 @@ body{
 .first-section-container{
     display: none;
 }
-.right-section-container{
-    display: none;
-}
-.middle-child{
-    padding-bottom: 4rem;
-    height: 100vh;
-}
 .logo img{
     width: 200px;
     height: auto;
     padding: 1.5rem 1rem;
+}
+.right-section-container{
+    display: none;
+}
+
+
+
+
+/*-----second section-----*/
+.middle-child{
+    padding-bottom: 4rem;
+    height: 100vh;
+}
+.issue-image-container{
+    padding-top: 1.5rem;
+}
+.issue-image{
+    width: 80%;
+    margin: 0 auto;
+}
+.issue-image > img{
+    width: 100%;
+}
+#middle-fifth{
+    height: unset;
 }
 .issue5-image{
     width: 80%;
@@ -49,25 +67,6 @@ body{
 .section-text p > span{
     color: white;
     font-weight: bold;
-}
-
-/*-----second section-----*/
-/* .second-section{
-    background-color: #ff651a;
-    padding-bottom: 3rem;
-} */
-.issue-image-container{
-    padding-top: 1.5rem;
-}
-.issue-image{
-    width: 80%;
-    margin: 0 auto;
-}
-.issue-image > img{
-    width: 100%;
-}
-#middle-fifth{
-    height: unset;
 }
 
 /*-----Mobile Footer-----*/
